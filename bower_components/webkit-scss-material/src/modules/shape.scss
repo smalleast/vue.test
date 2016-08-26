@@ -1,0 +1,27 @@
+.circle {
+  border-radius: 50%;
+}
+
+.round {
+  border-radius: 1000px;
+}
+
+.radius-top-0 {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.radius-right-0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-bottom-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.radius-left-0 {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

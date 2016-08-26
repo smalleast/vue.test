@@ -1,0 +1,13 @@
+{
+  "name": "flex-grid",
+  "homepage": "https://github.com/afeiship/flex-grid",
+  "_release": "85a5812b10",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "85a5812b1064d5ff6c3a5387b99712eb99e27e15"
+  },
+  "_source": "git://github.com/afeiship/flex-grid.git",
+  "_target": "*",
+  "_originalSource": "afeiship/flex-grid"
+}

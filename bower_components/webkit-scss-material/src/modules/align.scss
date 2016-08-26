@@ -1,0 +1,42 @@
+/**align Start**/
+.vat {
+  &,
+  &_ > * {
+    vertical-align: top;
+  }
+}
+
+.vab {
+  &,
+  &_ > *{
+    vertical-align: bottom;
+  }
+}
+
+.vam {
+  &,
+  &_ > *{
+    vertical-align: middle;
+  }
+}
+
+.tc {
+  text-align: center;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tr {
+  text-align: right;
+}
+
+.ell {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+/**align  End**/

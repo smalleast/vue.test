@@ -1,0 +1,19 @@
+/**column Start**/
+.col {
+  flex: 1;
+  padding-right: $gutter-width/2;
+  padding-left: $gutter-width/2;
+}
+
+@for $i from 1 through 12 {
+  .col-u-#{$i} {
+    @extend .col;
+  }
+  .col-u-#{$i} {
+    $percent: #{100%*$i/12};
+    flex-basis: $percent;
+    max-width: $percent;
+  }
+}
+
+/**column  End**/

@@ -1,0 +1,28 @@
+{
+  "name": "webkit-scss-material",
+  "version": "1.0.1",
+  "description": "",
+  "main": [
+    "dist/style.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:linejs/webkit-scss-material.git"
+  },
+  "author": "fei",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "~2.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "~3.0.2",
+    "gulp-debug": "^2.1.2",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-sass": "~2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "lodash": "~3.10.1",
+    "rename": "^1.0.3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue.test",
+  "description": "vue test page.",
+  "main": "dist/vue-test.js",
+  "authors": [
+    "small.east"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/smalleast/vue.test",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "vue": "^1.0.26",
+    "zepto": "^1.1.6",
+    "webkit-scss-material": "afeiship/webkit-css-material",
+    "flex-grid": "afeiship/flex-grid"
+  }
+}

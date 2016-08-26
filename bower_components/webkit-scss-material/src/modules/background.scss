@@ -1,0 +1,7 @@
+/**background-color Start**/
+.bgn {
+  background: none;
+}
+
+@include background-color-generator($color-map);
+/**background-color  End**/

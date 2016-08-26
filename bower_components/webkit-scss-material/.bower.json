@@ -1,0 +1,33 @@
+{
+  "name": "webkit-scss-material",
+  "description": "webkit css material of scss version.",
+  "main": "dist/style.css",
+  "authors": [
+    "fei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "webkit",
+    "css",
+    "oocss"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-css-material",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "9c5f48593a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9c5f48593a8586875d4704197bffb457e3586f8b"
+  },
+  "_source": "git://github.com/afeiship/webkit-css-material.git",
+  "_target": "*",
+  "_originalSource": "afeiship/webkit-css-material"
+}

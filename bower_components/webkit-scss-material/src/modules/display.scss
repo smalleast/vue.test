@@ -1,0 +1,33 @@
+/**display Start**/
+
+.db {
+  &,
+  &_ > * {
+    display: block;
+  }
+}
+
+.di {
+  display: inline;
+}
+
+.dn {
+  display: none;
+}
+
+.dib {
+  &,
+  &_ > * {
+    display: inline-block;
+  }
+}
+
+.dtb {
+  display: table;
+}
+
+.dtbc {
+  display: table-cell;
+}
+
+/**display  End**/

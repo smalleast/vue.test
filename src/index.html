@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vue.test</title>
+  <link rel="stylesheet" href="../bower_components/webkit-scss-material/dist/style.css">
+  <link rel="stylesheet" href="../bower_components/flex-grid/dist/style.css">
+</head>
+<body>
+<!--float-tip start-->
+<template id="float-tip-template">
+  <div class="dc-tip">
+    <div class="row dc-float-tip" v-if="childVisible">
+      <div class="dc-flex-center col-u-2"><img src="images/dc-logo@2x.png" class="dc-logo"></div>
+      <div class="dc-flex-left col-u-6">
+        <div class="dc-block">
+          <div class="wp-10 f14"><a :href="http://itunes.apple.com/cn/app/da-cang/id1080860264?ls=1&mt=8"></a>龘藏</div>
+          <div class="wp-10 f12 lh14">指引方向，带你成长，一心做负责的拍卖平台</div>
+        </div>
+      </div>
+      <div class="dc-flex-center col-u-3">
+        <button class="dc-download" v-on:click="childDownload()">立即下载</button>
+      </div>
+      <div class="dc-flex-center col-u-1">
+        <button class="dc-close" v-on:click="childClose()"></button>
+      </div>
+    </div>
+    <div class="dc-float-tip-popup"
+         v-on:click="childCloseSafariTip()"
+         v-if="childPopupVisible">
+      <img class="full-image" src="images/live_weixin.png">
+    </div>
+  </div>
+</template>
+<!--float-tip end-->
+<div id="sample">
+  <float-tip></float-tip>
+</div>
+
+</body>
+</html>
+<script src="../bower_components/zepto/zepto.min.js"></script>
+<script src="../bower_components/vue/dist/vue.min.js"></script>
+
+<script src="index.js"></script>
+<link rel="stylesheet" href="styles/index.css">

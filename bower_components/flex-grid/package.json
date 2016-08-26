@@ -1,0 +1,20 @@
+{
+  "name": "layout-modules-flexbox",
+  "version": "0.0.0",
+  "description": "Layout module based on flexbox(sass version)",
+  "homepage": "https://github.com/afeiship",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

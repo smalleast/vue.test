@@ -1,0 +1,42 @@
+/**padding Start**/
+
+@mixin paddingX($inPadding) {
+  padding:{
+    left:toRem($inPadding);
+    right:toRem($inPadding);
+  }
+}
+
+@mixin paddingY($inPadding) {
+  padding:{
+    top:toRem($inPadding);
+    bottom:toRem($inPadding);
+  }
+}
+
+@mixin pt($inPadding){
+  padding:{
+    top: toRem($inPadding);
+  }
+}
+
+@mixin pr($inPadding){
+  padding:{
+    right: toRem($inPadding);
+  }
+}
+
+@mixin pb($inPadding){
+  padding:{
+    bottom: toRem($inPadding);
+  }
+}
+
+@mixin pl($inPadding){
+  padding:{
+    left: toRem($inPadding);
+  }
+}
+
+
+/**padding  End**/

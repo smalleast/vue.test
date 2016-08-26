@@ -1,0 +1,18 @@
+/**background Start**/
+@mixin background-color-generator($inColorMap){
+  @each $name,$color in $inColorMap{
+    .bg-#{$name}{
+      background-color:#{$color};
+    }
+  }
+}
+
+@mixin bg-no-repeat($inImg){
+  background: url($inImg) no-repeat;
+}
+
+@mixin bg-img($inImg,$inWidth,$inHeight){
+  background: url($inImg) no-repeat;
+  background-size:toRem($inWidth) toRem($inHeight);
+}
+/**background  End**/

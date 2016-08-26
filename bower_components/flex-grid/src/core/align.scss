@@ -1,0 +1,34 @@
+/**align Start**/
+.horizontal-left {
+  justify-content: flex-start;
+}
+
+.horizontal-middle {
+  justify-content: center;
+}
+
+.horizontal-right {
+  justify-content: flex-end;
+}
+
+.vertical-top {
+  align-items: flex-start;
+}
+
+.vertical-middle {
+  align-items: center;
+}
+
+.vertical-bottom {
+  align-items: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/**align  End**/
